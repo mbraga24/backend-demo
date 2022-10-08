@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "employeeId": {
+            "type": "integer"
+        },
+        "message": {
+            "type": "string"
+        }
+    },
+    "required": [
+        "employeeId",
+        "message"
+    ],
+    "title": "SaveProfileOutbound"
+}

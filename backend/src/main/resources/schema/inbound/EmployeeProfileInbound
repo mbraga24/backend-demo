@@ -1,0 +1,33 @@
+{
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "role": {
+            "type": "string"
+        },
+        "department": {
+            "type": "string"
+        },
+        "colors": {
+            "type": "array",
+            "items": [
+                {
+                    "type": "string"
+                }
+            ]
+        }
+    },
+    "required": [
+        "firstName",
+        "lastName",
+        "role",
+        "department",
+        "colors"
+    ],
+    "title": "EmployeeProfileInbound"
+}
